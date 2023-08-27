@@ -1,0 +1,87 @@
+{
+	"col-default": "預設值",
+	"col-name": "欄位",
+	"col-type": "型別",
+	"d1-manager": {
+		"description": "D1 Manager 是一個為 Cloudflare D1（無伺服器 SQL 資料庫）設計的網頁界面和 API。它提供了一個易於使用的界面，使用者可以輕鬆地管理數據庫、表格和資料。API 提供了靈活性和與現有工作流程的整合。D1 Manager 讓使用者專注於他們的數據。",
+		"name": "D1 Manager",
+		"short": "輕鬆的管理 Cloudflare D1 裡面的資料"
+	},
+	"d1-manager-manage-db": "使用 D1 Manager 管理 {db} 中的資料",
+	"download": "下載",
+	"lang": {
+		"en": "英語",
+		"zh-CN": "簡體中文",
+		"zh-TW": "正體中文"
+	},
+	"language": "語言",
+	"n-ms": "花費 {n} 毫秒",
+	"n-table-in-db": "{db} 中有 {n} 張表",
+	"plugin": {
+		"add-record": {
+			"add": "新增資料",
+			"column": "欄位",
+			"error": "發生錯誤",
+			"integer-is-required": "必須是整數",
+			"n-ms": "執行花費 {n} 毫秒",
+			"name": "新增資料",
+			"real-is-required": "必須是實數",
+			"success": "新增成功",
+			"value": "值"
+		},
+		"csv": {
+			"export": "匯出",
+			"export-csv": "匯出 CSV",
+			"import": "匯入",
+			"import-csv": "匯入 CSV",
+			"invalid-column-name-key": "無效的欄位：{key}",
+			"n-ms-m-changes": "花費 {n} 毫秒，{m} 筆資料更動",
+			"name": "CSV 匯入與匯出",
+			"no-result": "沒有結果",
+			"select-a-csv-file": "選擇 CSV 文件"
+		},
+		"run-query": {
+			"export": "匯出",
+			"n-ms-m-changes": "花費 {n} 毫秒，{m} 筆資料更動",
+			"name": "執行 SQL 查詢",
+			"no-result": "回應中沒有資料",
+			"no-results": "沒有符合的結果",
+			"run": "執行",
+			"unknown-error": "未知的錯誤"
+		},
+		"semantic-query": {
+			"autorun-on-read-only-queries": "只讀查詢將自動執行。",
+			"export": "匯出",
+			"n-ms-m-changes": "花費 {n} 毫秒，{m} 筆資料更動",
+			"name": "語意查詢",
+			"no-result": "回應中沒有資料",
+			"no-results": "沒有符合的結果",
+			"requires-openai_api_key": "提醒：此工具需要設置 OPENAI_API_KEY 環境變數。",
+			"run": "執行",
+			"suggest": "編寫語句",
+			"unknown-error": "未知的錯誤"
+		},
+		"table-browser": {
+			"click-to-sort-by": "點擊以 {col} 排序",
+			"invalid-rowid": "無效的定位 ID",
+			"name": "表格瀏覽器",
+			"next": "下一頁",
+			"no-record": "無資料",
+			"no-result": "無資料",
+			"no-results": "沒有符合的結果",
+			"prev": "上一頁",
+			"showing": "顯示 {from} 至 {to} 筆資料",
+			"table-is-locked": "表格已鎖定，解鎖以對其進行編輯",
+			"table-is-locked-click-to-unlock": "已鎖定，點擊啟用編輯",
+			"table-is-unlocked-click-to-lock": "已解鎖，點擊關閉編輯",
+			"unknown-error": "未知錯誤"
+		}
+	},
+	"rows": "資料筆數",
+	"see-github": "在 GitHub 上查看使用說明",
+	"select-database": "選擇資料庫",
+	"select-database-from-above": "請從右上角選擇一個資料庫",
+	"show-first-10-records": "顯示 {table} 裡前十筆資料",
+	"suggestion-will-appear-here": "產生的 SQL 語句將顯示在此",
+	"theme": "主題"
+}
