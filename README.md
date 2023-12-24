@@ -2,6 +2,23 @@
 
 D1 Manager is a web UI and API for Cloudflare D1, a serverless SQL database. It provides a user-friendly interface for managing databases, tables, and records, as well as an API for performing operations programmatically. D1 Manager simplifies database management, enabling users to focus on their data.
 
+## Config
+
+```sh
+# fork repository
+git clone yourforkhere
+
+cd yourforkhere
+
+echo "Make sure that you use this repo in svelt-kit"
+echo "build: npm run build"
+echo "assetDir: .svelte-kit/cloudflare"
+echo "Also please bind and d1 databases to a variable starting with 'DB'"
+# todo automate this all lol
+
+
+```
+
 [![semantic-query-demo](./images/semantic-query-demo.gif)](https://storage.jacoblin.cool/semantic-query-demo.mp4)
 
 ## Features
@@ -39,6 +56,7 @@ Also, there are some configuration options that can be set through environment v
 - `SHOW_INTERNAL_TABLES`: Show internal tables (`splite_*` and `d1_*`) in the UI.
 
 ## Screenshots
+[screen_rec-2023-08-28_12.04.08.mkv](images%2Fscreen_rec-2023-08-28_12.04.08.mkv)
 
 ![tables](./images/tables.png)
 

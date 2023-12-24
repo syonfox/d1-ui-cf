@@ -9,6 +9,7 @@ declare global {
 		// interface PageData {}
 		interface Platform {
 			env: {
+				API_BASE_ROUTE: string;
 				SHOW_INTERNAL_TABLES?: string;
 				OPENAI_API_KEY?: string;
 			} & Record<string, Fetcher | string>;
